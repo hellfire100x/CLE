@@ -1,0 +1,35 @@
+Test File.Maximum number of images/content in essay.lens and essays.lens
+Sebastian Johnke
+NOV 12, 2013 04:48PM EST
+Hello Koken-Team,
+
+there seems to be a strange displaying error with the essays. I can only have a specific number of pictures in an essay. If it is to much (in this case more than 21 pictures), nothing gets displayed and it seems like the code is broken. This happens with every theme. This also happens with essay.lens AND essays.lens.
+
+Check this for example:
+
+All images displayed: 
+http://travelographer.de/essays/2013/07/whalewatching-auf-den-azoren-ii/
+
+No images displayed, and it displays the image title "Essays - Travelographer" on top of the page: 
+http://travelographer.de/essays/
+
+For essay.lens I helped myself with splitting essays into "chapters" but this doesn't help with essays.lens of course.
+
+Does this happen to other people as well?
+
+Thanks in advance,
+Sebastian
+
+
+Brad Daily
+NOV 13, 2013 11:09AM EST
+Koken Agent
+Sebastian – Each image requires an API call to get its info, and on some servers this can cause problems. We’re looking at a better way to handle this in a future release.
+
+
+Sebastian Johnke
+NOV 16, 2013 05:55AM EST
+Thank you very much. I was guessing something like that already. Might as well explain some displaying errors while building up image previews in the backend.
+
+Sebastian
+This question has received the maximum number of answers.
